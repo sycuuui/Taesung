@@ -39,7 +39,7 @@ nav{
 }
 
 /* navBar-changePoint */
-.nav-item:nth-child(1){
+.nav-item:nth-child(2){
     color: #FFB71B;
 
     font-weight: bold;
