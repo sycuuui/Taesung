@@ -82,12 +82,37 @@ hr{
 .nav2-intro{
     margin-bottom: 128px;
 }
-
+#pre-ipo img{
+    width: 299px;
+    height: 299px;
+}
 #public-offering img{
     width: 299px;
     height: 299px;
 }
 
+#real-estate img{
+    width: 133px;
+    height: 133px;
+}
+
+.real-estate-box{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.domestic{
+    border-right: 1px solid #004E66;
+}
+.kind ,.kind-info{
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+    text-align: left;
+}
 #NPL img{
     width: 250px;
     height: 250px;
