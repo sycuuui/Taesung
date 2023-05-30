@@ -40,3 +40,61 @@ nav{
     font-weight: bold;
 }
 
+.hero-banner {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	position: relative;
+	justify-content: center;
+	z-index: -1;
+  }
+  
+  .hero-banner__title {
+	color: black;
+	font-size: 200px;
+	font-weight: 700;
+	padding: 0 20px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+  }
+  
+  .hero-banner__stroked-title {
+	color: transparent;
+	-webkit-text-stroke: 2px white;
+  }
+  
+  .hero-banner__image {
+	border-radius: 20px;
+	position: fixed;
+	transform: rotate(-15deg);
+	width: 550px;
+  }
+  
+  .content {
+	background-color: black;
+	font-size: 40px;
+	padding: 120px 80px;
+	height: 100vh;
+  }
+  
+  body {
+	background-color: white;
+	font-family: Arial;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+
+  .content p{
+	margin-top: 0px;
+	font-size: 20px;
+	color: aliceblue;
+  }
+  
+  .content h3{
+	margin-top: 0px;
+	color: aliceblue;
+  }
+  
