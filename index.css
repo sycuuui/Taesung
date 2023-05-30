@@ -1,3 +1,50 @@
+@font-face { font-family: 'NanumBarunGothic';
+    src: url('/font/NanumBarunGothic.eot');
+    src: url('/font/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/font/NanumBarunGothic.woff') format('woff');}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+    font-family: 'NanumBarunGothic', 'serif';
+}
+/* navBar */
+nav{
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+.nav-item{
+    width: 100vw;
+    height: 10%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 1.5px solid #FFFFFF;
+}
+.nav-item:hover{
+    color: #FFB71B;
+    border-bottom: 1.5px solid #FFB71B;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* navBar-changePoint */
+.nav-item:nth-child(1){
+    color: #FFB71B;
+
+    font-weight: bold;
+}
+
 .hero-banner {
 	align-items: center;
 	display: flex;
@@ -44,7 +91,9 @@
   * {
 	box-sizing: border-box;
   }
-
+  .content{
+	text-align: left;
+  }
   .content p{
 	margin-top: 0px;
 	font-size: 20px;
