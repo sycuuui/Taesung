@@ -10,8 +10,9 @@ html{
     scroll-behavior: smooth;
 }
 body{
+  background-color: white;
+	font-family: Arial;
     text-align: center;
-    font-family: 'NanumBarunGothic', 'serif';
 }
 /* navBar */
 nav{
@@ -28,6 +29,8 @@ nav{
     padding-bottom: 20px;
 
     border-bottom: 1.5px solid #FFFFFF;
+
+    font-family: 'NanumBarunGothic', 'serif';
 }
 .nav-item:hover{
     color: #FFB71B;
@@ -84,8 +87,7 @@ nav{
   }
   
   body {
-	background-color: white;
-	font-family: Arial;
+	
   }
   
   * {
