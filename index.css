@@ -2,99 +2,61 @@
     src: url('/font/NanumBarunGothic.eot');
     src: url('/font/NanumBarunGothic.eot') format('embedded-opentype'),
     url('/font/NanumBarunGothic.woff') format('woff');}
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'NanumBarunGothic', 'serif';
-}
-
-/* navBar */
-nav{
-    display: flex;
-    flex-direction: row;
-
-    text-align: center;
-}
-.nav-item{
-    width: 100vw;
-    height: 10%;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    border-bottom: 1.5px solid #FFFFFF;
-}
-.nav-item:hover{
-    color: #FFB71B;
-    border-bottom: 1.5px solid #FFB71B;
-
-    font-weight: bold;
-
-    cursor: pointer;
-}
-
-/* navBar-changePoint */
-.nav-item:nth-child(2){
-    color: #FFB71B;
-
-    font-weight: bold;
-}
-
-.hero-banner {
-	align-items: center;
-	display: flex;
-	height: 100vh;
-	position: relative;
-	justify-content: center;
-	z-index: -1;
-  }
-  
-  .hero-banner__title {
-	color: black;
-	font-size: 200px;
-	font-weight: 700;
-	padding: 0 20px;
-	position: absolute;
-	text-align: center;
-	text-transform: uppercase;
-  }
-  
-  .hero-banner__stroked-title {
-	color: transparent;
-	-webkit-text-stroke: 2px white;
-  }
-  
-  .hero-banner__image {
-	border-radius: 20px;
-	position: fixed;
-	transform: rotate(-15deg);
-	width: 550px;
-  }
-  
-  .content {
-	background-color: black;
-	font-size: 40px;
-	padding: 120px 80px;
-	height: 100vh;
-  }
-  
-  body {
-	background-color: white;
-	font-family: Arial;
-  }
-  
-  * {
-	box-sizing: border-box;
-  }
-
-  .content p{
-	margin-top: 0px;
-	font-size: 20px;
-	color: aliceblue;
-  }
-  
-  .content h3{
-	margin-top: 0px;
-	color: aliceblue;
-  }
-  
+    .hero-banner {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      position: relative;
+      justify-content: center;
+      z-index: -1;
+      }
+      
+      .hero-banner__title {
+      color: black;
+      font-size: 200px;
+      font-weight: 700;
+      padding: 0 20px;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      }
+      
+      .hero-banner__stroked-title {
+      color: transparent;
+      -webkit-text-stroke: 2px white;
+      }
+      
+      .hero-banner__image {
+      border-radius: 20px;
+      position: fixed;
+      transform: rotate(-15deg);
+      width: 550px;
+      }
+      
+      .content {
+      background-color: black;
+      font-size: 40px;
+      padding: 120px 80px;
+      height: 100vh;
+      }
+      
+      body {
+      background-color: white;
+      font-family: Arial;
+      }
+      
+      * {
+      box-sizing: border-box;
+      }
+    
+      .content p{
+      margin-top: 0px;
+      font-size: 20px;
+      color: aliceblue;
+      }
+      
+      .content h3{
+      margin-top: 0px;
+      color: aliceblue;
+      }
+    
