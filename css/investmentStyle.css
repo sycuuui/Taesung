@@ -94,8 +94,9 @@ nav{
 
 .middleline{
     margin-top:150px;
-    width: 100%;
-    background-color: #004E66;
+    width: 100vw;
+    border: solid 0.5px #004E66;
+    opacity: 0.1;
 }
 
 .second{
