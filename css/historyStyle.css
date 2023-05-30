@@ -1,9 +1,14 @@
+@font-face { font-family: 'NanumBarunGothic';
+    src: url('/font/NanumBarunGothic.eot');
+    src: url('/font/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/font/NanumBarunGothic.woff') format('woff');}
 *{
     margin: 0;
     padding: 0;
 }
 body{
     text-align: center;
+    font-family: 'NanumBarunGothic', 'serif';
 }
 /* navBar */
 nav{
@@ -17,13 +22,13 @@ nav{
     height: 10%;
 
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 1.5px solid #FFFFFF;
 }
 .nav-item:hover{
     color: #FFB71B;
-    border-bottom: 3px solid #FFB71B;
+    border-bottom: 1.5px solid #FFB71B;
 
     font-weight: bold;
 
@@ -31,7 +36,7 @@ nav{
 }
 
 /* navBar-changePoint */
-.nav-item:nth-child(2){
+.nav-item:nth-child(3){
     color: #FFB71B;
 
     font-weight: bold;
@@ -43,8 +48,8 @@ nav{
 }
 
 .history-titleBox{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -56,17 +61,30 @@ nav{
 }
 .num{
     text-align: left;
+    font-size: 2em;
+    color:#004E66;
+
+    margin-bottom: 20px;
 }
 .name{
     text-align: left;
-    margin-right: 10px;
-    padding-top: 5%;
+    margin-right: 10px; 
     
-    width: 72px;
-    height: 42px;
+    width: 3em;
 
-    text-align: center;
+    /* text-align: ; */
+    display: flex;
     align-items: center;
+
+    font-size: 2em;
+
+    color: #383635;
+}
+#name-first{
+    width: 2em;
+}
+#name-second{
+    width: 3em;
 }
 hr{
     width: 100%;
@@ -81,5 +99,5 @@ hr{
     margin-top: 131px;
 }
 #organization-img{
-    width: 986px;
+    width: 60%;
 }

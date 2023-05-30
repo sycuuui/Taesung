@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/operationStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <nav>
+        <div style="width:100%;"><img style="width:210px;margin-top:10px;margin-left: 20px;"src="./img/logo.png" alt=""></div>
         <div onclick ="location.href='index.html'" class="nav-item">메인화면</div>
         <div onclick ="location.href='./history.html'" class="nav-item">연혁,조직도</div>
         <div onclick ="location.href='./introduce.html'" class="nav-item">회사소개</div>
@@ -17,6 +19,7 @@
     </nav>
 
     <div id="container">
+        <!-- <div class="container-title">운용내역</div> -->
         <nav id="nav2">
             <div onclick ="location.href='#pre-ipo'" class="nav-item2">Pre ipo</div>
             <div onclick ="location.href='#public-offering'" class="nav-item2">공모주</div>
@@ -25,13 +28,13 @@
             <div onclick ="location.href='#MandA'"class="nav-item2">M&A</div>
             <div onclick ="location.href='#structuralization'"class="nav-item2">구조화</div>
         </nav>
-        <hr>
+        <!-- <hr> -->
         <div id="pre-ipo">
             <div class="nav2-title">Pre ipo</div>
             <div class="nav2-intro">펀드 설명글 기재 예정</div>
             <div>
-                <img src="./img/operation/pre-ipo/1.png" alt="">
-                <img src="./img/operation/pre-ipo/2.png" alt="">
+                <img id="pre-ipo-1" src="./img/operation/pre-ipo/1.png" alt="">
+                <img id="pre-ipo-2" src="./img/operation/pre-ipo/2.png" alt="">
             </div>
         </div>
         <hr>
@@ -39,8 +42,8 @@
             <div class="nav2-title">공모주 펀드</div>
             <div class="nav2-intro">펀드 설명글 기재 예정</div>
             <div>
-                <img src="./img/operation/public/1.png" alt="">
-                <img src="./img/operation/public/2.png" alt="">
+                <img id="public-1" src="./img/operation/public/1.png" alt="">
+                <img id="public-2" src="./img/operation/public/2.png" alt="">
             </div>
         </div>
         <hr>
@@ -93,8 +96,8 @@
             <div class="nav2-title">M&A</div>
             <div class="nav2-intro">펀드 설명글 기재 예정</div>
             <div>
-                <img src="./img/operation/M&A/1.png" alt="">
-                <img src="./img/operation/M&A/2.png" alt="">
+                <img id="MandA-1" src="./img/operation/MandA/1.png" alt="">
+                <img id="MandA-2" src="./img/operation/MandA/2.png" alt="">
             </div>
         </div>
         <hr>
@@ -102,11 +105,13 @@
             <div class="nav2-title">구조화</div>
             <div class="nav2-intro">펀드 설명글 기재 예정</div>
             <div>
-                <img src="./img/operation/struc/1.png" alt="">
+                <img id="structuralization-1" src="./img/operation/struc/1.png" alt="">
             </div>
         </div>
     </div>
     
-
+    <script type="text/javascript" src="./js/changeImg.js"></script>
+    <script>
+    </script>
 </body>
 </html>

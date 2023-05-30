@@ -1,12 +1,18 @@
+@font-face { font-family: 'NanumBarunGothic';
+    src: url('/font/NanumBarunGothic.eot');
+    src: url('/font/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/font/NanumBarunGothic.woff') format('woff');}
 *{
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     text-align: center;
+    font-family: 'NanumBarunGothic', 'serif';
 }
-
 /* navBar */
 nav{
     display: flex;
@@ -19,13 +25,13 @@ nav{
     height: 10%;
 
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 1.5px solid #FFFFFF;
 }
 .nav-item:hover{
     color: #FFB71B;
-    border-bottom: 3px solid #FFB71B;
+    border-bottom: 1.5px solid #FFB71B;
 
     font-weight: bold;
 
@@ -40,8 +46,12 @@ nav{
 }
 
 /* navBar2 */
+/* .container-title{
+    font-size: 5em;
+    margin-top: 70px;
+} */
 #nav2{
-    margin-top: 240px;
+    margin-top: 100px;
     margin-right: 10vw;
     margin-left: 10vw;
     margin-bottom: 60px;
@@ -53,13 +63,32 @@ nav{
     padding-top: 10px;
     padding-bottom: 10px;
 
-    border-left: 1px solid black;
+    margin-right: 10px;
+
+    border-top: 1px solid rgb(204, 204, 204);
+    opacity: 0.5;
 
     cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.07em;
+
+    /* 글자색 */
+
+    color: #383635;
+
 }
-.nav-item2:nth-child(6){
+.nav-item2:hover{
+    border-top: 1px solid #004E66;
+    color: #004E66;
+    
+    
+}
+/* .nav-item2:nth-child(6){
     border-right: 1px solid black;
-}
+} */
 
 /* hr */
 hr{
@@ -67,6 +96,8 @@ hr{
     border: solid 0.5px #004E66;
 
     margin-top: 72px;
+
+    opacity: 0.1;
 }
 
 /* nav2-content */
@@ -76,24 +107,41 @@ hr{
 }
 
 .nav2-title{
-    padding-top: 72px;
+    padding-top: 40px;
     margin-bottom: 24px;
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -0.07em;
 }
 .nav2-intro{
-    margin-bottom: 128px;
+    margin-bottom: 60px;
+
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 34px;
+    letter-spacing: -0.07em;
+
+/* 글자색 */
+
+color: #383635;
+
 }
 #pre-ipo img{
-    width: 299px;
-    height: 299px;
+    width: 500px;
+    height: 500px;
 }
 #public-offering img{
-    width: 299px;
-    height: 299px;
+    width: 500px;
+    height: 500px;
 }
 
 #real-estate img{
-    width: 133px;
-    height: 133px;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 8px;
 }
 
 .real-estate-box{
@@ -106,6 +154,12 @@ hr{
 
 .domestic{
     border-right: 1px solid #004E66;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.overseas{
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .kind ,.kind-info{
     margin-left: 16px;
@@ -113,18 +167,39 @@ hr{
 
     text-align: left;
 }
+
+.kind{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -0.07em;
+
+    color: #383635;
+}
+
+.kind-info{
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 30px; */
+    line-height: 34px;
+    letter-spacing: -0.07em;
+
+    color: #383635;
+}
+
 #NPL img{
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
 }
 
 #MandA img{
-    width: 299px;
-    height: 299px;
+    width: 500px;
+    height: 500px;
 }
 
 #structuralization img{
-    width: 299px;
-    height: 299px;
+    width: 500px;
+    height: 500px;
 }
 

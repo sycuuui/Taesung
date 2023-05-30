@@ -1,3 +1,7 @@
+@font-face { font-family: 'NanumBarunGothic';
+    src: url('/font/NanumBarunGothic.eot');
+    src: url('/font/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/font/NanumBarunGothic.woff') format('woff');}
 *{
     margin: 0;
     padding: 0;
@@ -15,14 +19,14 @@ nav{
     height: 10%;
 
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 1.5px solid #FFFFFF;
 
 }
 .nav-item:hover{
     color: #FFB71B;
-    border-bottom: 3px solid #FFB71B;
+    border-bottom: 1.5px solid #FFB71B;
 
     font-weight: bold;
 
@@ -30,7 +34,7 @@ nav{
 }
 
 /* navBar-changePoint */
-.nav-item:nth-child(4){
+.nav-item:nth-child(5){
     color: #FFB71B;
 
     font-weight: bold;
